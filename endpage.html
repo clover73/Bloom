@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- linking fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Hind:300|Montserrat:500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Bloom</title>
+
+  <!-- for media queries  -->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+</head>
+
+
+
+
+<body class="player">
+
+
+  <!-- nav -->
+
+  <div id="navbar">
+
+    <header id="logobox2">
+
+      <div class="logo">
+        <a href="index.html"><img class="logo" src="assets/bloomwordblack.png" alt="logo"></img></a>
+      </div>
+      <nav>
+        <ul class="nav__links">
+          <li><a id="welcome" href="#">Welcome</a></li>
+          <li><a id="signoutbutton" href="#">Sign Out</a></li>
+
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <img class="profileicon" src="assets/profile icon.svg" alt="profile icon">
+        <div class="dropdown-content">
+          <a href="#">Account</a>
+          <a href="#">Saved Music</a>
+          <a href="#">Link with Friends</a>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="mobile__menu" class="overlay">
+      <a class="close" onclick="closeNav()">&times;</a>
+      <div class="overlay__content">
+        <a href="#">LOGIN</a>
+        <a href="#">SIGN UP</a>
+        <a href="#">ABOUT</a>
+      </div>
+    </div>
+  </div>
+
+
+  <main class="mainend">
+
+
+    <!-- playing content on left side is fixed -->
+
+
+    <aside class="nowplaying">
+      <div class="asidecontent">
+
+        <h1 id="Welcome" class="playtext"></h1>
+        <p class="playtext2">Find a Way by Tribe Called Quest</p>
+
+        <p class="greycol marginb">We have detected that you are currently on the University of Sydney campus. The weather is overcast and ambient noise is moderate. Taking into account your music tastes and demographic data, our AI has generated a
+          playlist tailored to studying and the classroom environmment for you and your friends.</p>
+
+
+        <div class="fit summary3">
+          <img class=" albumcover onblack" src="assets/4.svg" alt="album image">
+        </div>
+
+        <div class=musicicons>
+
+          <div class="musicdiv">
+            <img class="musicicon" src="assets/musicicons/play.svg" alt="music player icons">
+          </div>
+          <div class="musicdiv">
+
+            <img class="musicicon" src="assets/musicicons/skip.svg" alt="music player icons">
+          </div>
+
+          <div class="musicdiv">
+
+            <img class="musicicon" src="assets/musicicons/heart.svg" alt="music player icons">
+          </div>
+
+        </div>
+      </div>
+
+    </aside>
+
+
+
+    <!-- navigate music options -->
+
+
+    <section class="maincontent">
+      <div class="containermain">
+
+
+
+
+      </div>
+      <p id="welcomeid" class="playtext3"></p>
+
+
+      <h2 class="rowinfo">Tracks near you</h2>
+      <hr class="feet">
+
+      <div class="albums">
+
+        <div class="summaryradio">
+          <h2 class="artistname">Mac Demarco</h2>
+          <img class="albumcover" src="assets/1.svg" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">James Blake</h2>
+          <img class="albumcover" src="assets/2.svg" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">Yussef Kamaal</h2>
+          <img class="albumcover" src="assets/7.svg" alt="album image">
+        </div>
+
+      </div>
+
+      <h2 class="rowinfo">Your song scrapbook</h2>
+      <hr class="feet">
+
+      <div class="albums">
+
+        <div class="summaryradio">
+          <h2 class="artistname">Tribe Called Quest</h2>
+          <img class="albumcover" src="assets/4.svg" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">Mall Grab</h2>
+          <img class="albumcover" src="assets/5.svg" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">The Beach Boys</h2>
+          <img class="albumcover" src="assets/6.svg" alt="album image">
+        </div>
+      </div>
+
+      <h2 class="rowinfo">Try a different soundtrack!</h2>
+      <hr class="feet">
+
+      <div class="albums">
+
+        <div class="summaryradio">
+          <h2 class="artistname">Mac Demarco</h2>
+          <img class="albumcover" src="assets/9.jpg" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">James Blake</h2>
+          <img class="albumcover" src="assets/10.png" alt="album image">
+        </div>
+
+        <div class="summaryradio">
+          <h2 class="artistname">Yussef Kamaal</h2>
+          <img class="albumcover" src="assets/11.jpg" alt="album image">
+        </div>
+
+      </div>
+
+
+
+
+      </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+
+  <!-- linking js files -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="nanobar.js"></script>
+  <script type="text/javascript" src="endpage.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+
+
+
+</body>
+
+
+</html>
